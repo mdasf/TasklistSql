@@ -8,11 +8,11 @@ const { errorHandler } = require("./middleware/errorMiddleware");
 const db = require("./config/db");
 const port = process.env.PORT || 5000;
 
-corsConfig = {
-  origin: "",
-  methods: "GET,PUT,POST,DELETE",
-  credentials: true,
-};
+// corsConfig = {
+//   origin: "",
+//   methods: "GET,PUT,POST,DELETE",
+//   credentials: true,
+// };
 
 const app = express();
 // app.use(cors(corsConfig));
